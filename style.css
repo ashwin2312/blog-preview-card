@@ -1,0 +1,76 @@
+body{
+    height: 100vh;
+    font-family: "Figtree", sans-serif;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color-yellow{
+    color: hsl(47, 88%, 63%);
+}
+.bg-yellow{
+    background-color: hsl(47, 88%, 63%);
+}
+.gray-500{
+    color:hsl(0, 0%, 42%)
+}
+.gray-950{
+    color: hsl(0, 0%, 7%);
+}
+.wt500{
+    font-weight: 500;
+}
+.wt800{
+    font-weight: 800;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width:327px;
+    height: 501px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.938);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.common-width{
+    width: 279px;
+}
+.image-section{
+    width: 279px;
+    height: 200px;
+    border-radius: 10px;
+}
+img{
+    width: 100%;
+    height: 100%;    
+    object-fit: cover;
+    border-radius: 10px;
+}
+.tag{
+    width: 73px;
+    height: 26px;
+    border-radius: 4px;
+    /* text-align: center; */
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile-img{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+}
